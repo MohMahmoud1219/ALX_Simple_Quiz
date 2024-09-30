@@ -10,14 +10,14 @@ function checkAnswer() {
         const feedback = document.getElementById('feedback');
 
         // مقارنة الإجابة المختارة بالإجابة الصحيحة
-        if (userAnswer === correctAnswer) {
+        if (userAnswer === correctAnswer) 
             feedback.textContent = "إجابة صحيحة! أحسنت.";
-        } else {
+         else 
             feedback.textContent = "هذه إجابة خاطئة. حاول مرة أخرى!";
-        }
-    } else {
+        
+     else 
         alert("يرجى اختيار إجابة قبل إرسال!");
-    }
+    
 }
 
 // إضافة مستمع للأحداث لزر إرسال الإجابة
