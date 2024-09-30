@@ -10,7 +10,7 @@ function checkAnswer() {
         const feedback = document.getElementById('feedback');
 
         // مقارنة الإجابة المختارة بالإجابة الصحيحة
-        if (userAnswer.value === correctAnswer) {
+        if (userAnswer === correctAnswer) {
             feedback.textContent = "إجابة صحيحة! أحسنت.";
         } else {
             feedback.textContent = "هذه إجابة خاطئة. حاول مرة أخرى!";
