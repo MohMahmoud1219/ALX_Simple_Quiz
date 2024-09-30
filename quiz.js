@@ -10,9 +10,9 @@ function checkAnswer() {
         const feedback = document.getElementById('feedback');
 
         // مقارنة الإجابة المختارة بالإجابة الصحيحة
-        if (userAnswer.value == correctAnswer) {
+        if (userAnswer.value === correctAnswer) {
             feedback.textContent = "إجابة صحيحة! أحسنت.";
-        } else {
+        } else if {
             feedback.textContent = "هذه إجابة خاطئة. حاول مرة أخرى!";
         }
     } else {
